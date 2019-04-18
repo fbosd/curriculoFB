@@ -1,0 +1,60 @@
+<style>
+body{
+    color:aliceblue;
+}
+
+div#interface{
+    position: relative;
+    font-family: monospace;
+    margin: 15px auto 15px auto;
+    background-color: lightgray;
+    box-shadow: 0px 0px 30px rgba(0,0,0,.5);
+    padding: 10px;
+    width: 97%;
+}
+
+div#interface img:hover {
+    transition: 2s;
+    opacity: .7;
+}
+
+div#interface img{
+    position: absolute;
+    margin: 0px -88px 0px 0px;
+    padding: 10px;
+    right: 100px;
+    top: 7px;
+    border: 1px gray dashed;
+}
+
+div#contato{
+
+}
+
+p{
+    color: #111214;
+}
+
+h1{
+    font-size: 20pt;
+    color:#0a0a0a;
+}
+
+h2{
+    font-size: 13pt;
+    color:#0a0a0a;
+    border-top: 1px gray dashed;
+    border-bottom: 1px gray dashed;
+    border-left: 1px gray dashed;
+    border-right: 1px gray dashed;
+    padding: 5px;
+    margin: 40px auto 10px auto;
+}
+
+div#texto{
+    text-align: justify;
+    text-indent: 50px;  
+    width: 500px;
+}
+
+</style>
